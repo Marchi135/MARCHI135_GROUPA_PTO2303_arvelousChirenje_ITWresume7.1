@@ -51,7 +51,7 @@ body {
 button:hover {
     background-color: rgb(219, 191, 63);
     text-decoration: none;
-    color: aquamarine;
+    color: #005B61;
     text-align: center;
     box-shadow: inset 2px 2px 1px;
     border-radius: 2px;
@@ -63,7 +63,7 @@ button:hover {
 
 #top {
     display: flex;
-    background-color: rgb(#1C6967);
+    background-color: #1C6967;
     color: rgb(235, 230, 230);
     padding: 2rem;
     padding-bottom: 4rem;
@@ -93,7 +93,7 @@ main {
     
 }
 .service:nth-child(even) {
-    background-color: rgb(46, 67, 112);
+    background-color: #2F4858;
     color: whitesmoke;
 }
 .service h3 {
@@ -114,9 +114,9 @@ main {
 
 #footer {
     margin-top: 4rem;
-    background-color: rgb(23, 23, 23);
+    background-color: #2F4858;
     color: whitesmoke;
-    text-align: center;
+    text-align: left;
     padding: 2rem;
 }
 
@@ -128,4 +128,9 @@ header {
 #div h1 {
 font-size: 30px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    background-color: #2F4858;
+    color: antiquewhite;
 }
